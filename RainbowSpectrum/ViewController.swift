@@ -16,6 +16,7 @@ class ViewController: UIViewController {
     
     
     @IBAction func glowOnTapped(_ sender: UITapGestureRecognizer) {
+        self.view.backgroundColor = .red
     }
     
 }
